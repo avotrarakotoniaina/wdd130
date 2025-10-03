@@ -1,0 +1,152 @@
+:root {
+    --rafting-color: #0077b6;
+    --rafting-color-dark: #295794;
+    --rafting-color-medium: #0096c7;
+    --rafting-color-light: #90e0ef;
+    --rafting-color-text: white;
+    --rafting-font-family: 'Arial', sans-serif;
+    --rafting-heading-font: 'Georgia', serif;
+    --rafting-body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: var(--rafting-color-text);
+    font-family: var(--rafting-heading-font);
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+} 
+
+nav {
+    display: flex; 
+    justify-content: flex-end;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    background-color: var(--rafting-color-dark);
+    color: var(--rafting-body-font);
+    margin-left: 20px;
+    text-decoration: none;   
+}
+
+
+body {
+    font-family: var(--rafting-body-font);
+    color: var(--rafting-color-dark);
+}
+
+body, header, footer {
+    width: 800px;
+    margin: auto;
+}
+
+h1, h2 {
+    font-family: var(--rafting-heading-font);
+    color: var(--rafting-color-text);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    background-color: var(--rafting-body-font);
+}
+
+.hero {
+    position: relative
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: var(--rafting-color-dark);
+    color: var(--rafting-color-text);
+    padding: 16px;
+    opacity: 0.8;
+}
+
+h2 {
+    background-color:var(--rafting-color-dark);
+    text-align: center;
+}
+
+article {
+    top:240px;
+    position: absolute;
+    background-color: var(--rafting-color-dark);
+    color: var(--rafting-color-text);
+    opacity: 0.8;
+}
+
+.hero article img {
+    float: right;
+    width: 75px;
+    height: auto;
+}
+
+.history{
+    display: flex;
+    flex-direction: row;
+}
+
+.history img {
+    margin-top: 25px;
+    width: 200px;
+    height:auto
+}
+
+.adventure {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+
+
+.adventure img {
+    width: 140px;
+    height: auto;
+    padding: 10px
+}
+
+.adventure figcaption {
+    margin-left: 45px;
+
+
+}
+
+footer {
+    display: block;
+    border-top: var(--rafting-color-dark) 4px solid;
+    color: var(--rafting-color-text);
+    text-align: center;
+    color: var(--rafting-color-dark);
+    font-size: 1.0em;
+}
+
+
